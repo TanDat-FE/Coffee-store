@@ -14,3 +14,16 @@
 .badge-circle-icon {
   @apply text-xs text-center rounded-full px-2;
 }
+
+/* Login */
+.glass-container {
+  @apply w-74 h-87 relative z-0 shadow-custom rounded-xl border border-white;
+}
+
+.form-input {
+  @apply p-2 my-3 border rounded-lg bg-transparent text-gray-400 text-sm mx-4;
+}
+
+.options {
+  @apply flex justify-between items-center my-4 text-xs text-white px-4;
+}

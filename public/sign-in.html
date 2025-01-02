@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body class="m-0 flex justify-center items-center h-screen bg-cover object-cover" style="background-image: url('../img/image.jpg');">
+    <div class="glass-container" style="background-color: rgba(255, 255, 255, 0.3)">
+        <div class="login-box">
+            <h2 class="text-center my-2 text-yellow-50 font-semibold">Login</h2>
+            <form action="" method="post" class="flex flex-col">
+                <input class="form-input" type="text" name="username" id="username" required placeholder="Username">
+                <input class="form-input" type="password" name="password" id="password" required placeholder="Password">
+
+                <div class="options">
+                    <input type="checkbox" name="remember" id="remember" class="mr-1">
+                    <label for="remember">Recordarme</label>
+                    <a href="#" class="decoration-auto text-white ml-auto">Forget Password</a>
+                </div>
+
+                <button type="submit" class="bg-white w-70 h-10 rounded-xl font-semibold mx-2 text-center">Login</button>
+                <div class="flex justify-center text-white mt-8 underline">
+                    <a href="#" class="">Register</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
