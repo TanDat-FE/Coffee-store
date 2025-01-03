@@ -3,21 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/tdtd-icon" href="/img/favicon/OIP.jpg">
   <link href="./style.css" rel="stylesheet">
 </head>
 <body>
   <div id="root">
-    <div class="content-wrapper max-w-screen-2xl text-base mx-auto px-8 bg-slate-400">
-      <header class="mx-10 py-6">
-        <nav class="flex justify-between items-center">
+    <div class="content-wrapper font-Karla max-w-screen-xl text-base mx-auto px-8 bg-slate-400">
+      <header class="mx-auto p-6">
+        <nav class="flex justify-between items-center relative">
           <div class="logo basis-2/6 text-xl font-semibold cursor-pointer">
             <a href="#">CoffeeStyle.</a>
           </div>
-          <!-- End Logo -->
+          <!-- End Logo --> 
 
-          <ul class="basis-3/6 flex gap-6 uppercase text-xs text-gray-500 font-medium">
+          <ul id="event-menu" class="basis-3/6 hidden md:flex md:justify-end justify-center gap-6 ml-8 uppercase text-xs text-gray-800 font-medium">
             <li class="btn-menu-item">
-              <a href="/">Home</a>
+              <a href="./sign-in.html">Home</a>
             </li>
             <li class="btn-menu-item">
               <a href="#">Products</a>
@@ -40,7 +41,7 @@
           </ul>
           <!-- End Menu -->
 
-          <ul class="basis-1/6 ml-16 flex items-center uppercase text-xs text-gray-500 font-medium"> 
+          <ul class="basis-2/6 md:basis-1/6 ml-16 flex justify-end md:justify-star titems-center uppercase text-xs text-gray-800 font-medium "> 
             <li class="btn-menu-item flex">
               <a href="#" class="flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-card">
@@ -52,6 +53,12 @@
             </li>
           </ul>
           <!-- End Card -->
+          <div id="menu-icon" class="basis-1/6 md:hidden flex items-center cursor-pointer px-2">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+          </div>
+          <!-- End menubar -->
         </nav>
       </header>
       <main>
@@ -87,4 +94,5 @@
     </div>
   </div>
 </body>
+<script src="./index.js"></script>
 </html>
