@@ -8,7 +8,7 @@
 </head>
 <body>
   <div id="root">
-    <div class="content-wrapper font-Karla max-w-screen-xl text-base mx-auto px-8 bg-slate-400">
+    <div class="content-wrapper font-Karla max-w-screen-xl text-base mx-auto px-8 ">
       <header class="mx-auto p-6">
         <nav class="flex justify-between items-center relative">
           <div class="logo basis-2/6 text-xl font-semibold cursor-pointer">
@@ -62,8 +62,18 @@
         </nav>
       </header>
       <main>
-        <div class="slider">
-          Slider
+        <!-- bg-cover: để hình bao lấy container nhưng vẫn giữ kích thước thực -->
+        <div class="slider h-[530px] bg-[url('../img/coffee-mugs.jpg')] bg-cover bg-no-repeat bg-bottom">
+          <div class="w-full h-full flex justify-center items-center bg-gray-900 bg-opacity-40">
+            <div class="text-white text-center">
+              <div class="uppercase text-xs tracking-[2px]">Best Place To By Coffee</div>
+              <div class="text-5xl my-3">Coffee Mugs</div>
+              <div class="text-lg mb-8 mx-4">The most versatile furniture system ever created. Designed to fit your life, made to move and grow.</div>
+              <div class="uppercase flex justify-center cursor-pointer tracking-wider">
+                <div class="py-4 px-6 w-72 h-14 bg-white text-black font-semibold hover:bg-opacity-85 transition ease-in-out duration-400">Explore Our Products</div>
+              </div>
+            </div>
+          </div>
         </div> <!-- End Slider -->
     
         <div class="story">
