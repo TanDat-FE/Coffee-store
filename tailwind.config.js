@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         "light-coffee": "#C89F94",
         "read-story": "rgba(162, 95, 75, 0.2)",
+        "magazine-gray": "rgba(29, 31, 46, 0.7)",
       },
       textColor: { "custom-rgba": "rgba(29, 31, 46, 0.7)" },
 
