@@ -10,8 +10,11 @@ module.exports = {
         "light-coffee": "#C89F94",
         "read-story": "rgba(162, 95, 75, 0.2)",
         "magazine-gray": "rgba(29, 31, 46, 0.7)",
+        "contacts-gray": "rgba(210, 210, 213, 0.1)",
       },
-      textColor: { "custom-rgba": "rgba(29, 31, 46, 0.7)" },
+      textColor: {
+        "custom-rgba": "rgba(29, 31, 46, 0.7)",
+      },
 
       keyframes: {
         slideDown: {
@@ -21,8 +24,8 @@ module.exports = {
         fadeIn: { from: { opacity: 0 }, to: { opacity: 1 } },
       },
       animation: {
-        slideDown: "slideDown 1s ease-in-out",
-        fadeIn: "fadeIn 1s ease-in-out",
+        slideDown: "slideDown 0.5s ease-in-out",
+        fadeIn: "fadeIn 0.5s ease-in-out",
       },
       width: {
         74: "300px",
